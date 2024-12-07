@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    font-family:Arial;
+    border:border-box
+}
+.nav{
+    height: 60px;
+    background-color:#0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+height: 50px;
+width: 113px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size:cover;
+    height: 50px;
+    width: 100%;
+}
+.nav-loc{
+    margin:15px;
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+.add1{
+    margin-left: 18px;
+    color: #cccccccc;
+}
+.add2{
+    font-weight: bold;
+    margin-left: 5px;
+}
+.loc{
+    display:flex;
+}
+
+.nav-search{
+    display:flex;
+    height:40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.white{
+    color:white;
+}
+
+.nav-search:hover{
+    
+    border:2px solid #febd68;
+}
+.deals {
+    color: white;
+}
+.All{
+    width:50px;
+text-align: center;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius: 5px; 
+}
+.bar{
+    width: 750px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width:50px;
+    font-size: 1.5rem;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius: 5px; 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #0F1111;
+    background-color: #febd68;
+}
+span{
+    font-size: 0.7rem;
+}
+.acc{
+    font-size:0.9rem;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 30px;
+
+}
+.sec-nav{
+    height:40px;
+    font: size 0.85rem;
+    background-color:#222f3d;
+    display:flex;
+    color: rgba(31, 153, 213, 0.756);
+    align-items: center;
+    justify-content:space-evenly
+}
+.all{
+    color: white;
+    font-weight: bold;
+    left: 40px;
+}
+.cart a{
+font-size: 15px;
+font-weight: 700;
+}
+.optns p{
+    margin:10px;
+    display:inline;
+}
+.optns{
+    width: 70%;
+}
+.deals{
+    font-weight: 700;
+}
+
+.hero{
+    background-image:url("hero_image.jpg");
+    height:300px;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.inti{
+    align-items: center;
+    background-color: white;
+    height: 40px;
+    width: 90%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:20px;
+}
+
+.sell{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #d5e5e2;
+}
+
+.box{
+
+   height: 300px;
+   width: 350px; 
+   background-color:white;
+   padding: 20px 0px 15px;
+   margin-top: 1rem;
+}
+
+.boximg{
+height: 270px;
+background-size: cover;
+margin-bottom: 5px;
+}
+.box1 h2{
+    display: flex;
+    justify-content: center
+}
+.box1 p{
+   font-size: 0.8rem;
+}
+.box-content{
+margin-left: 1rem;
+margin-right: 1rem;
+
+}
+.box p{
+    font-size: 0.8rem;
+    color: #007185;
+}
+
+.foot-box{
+    margin-top: 10px;
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+ul a{
+    font-size: 0.85rem;
+    color: #dddddd;
+    display: block;
+    margin:10px;
+}
+
+.foot2{
+    margin-top: 20px;
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    }
+    .foot2-1{
+        background-color: #222f3d;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .foot3{
+        background-color: #222f3d;
+        height: 70px;
+        border-top:0.2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        background-image: url("amazon_logo.png");
+        background-size:cover;
+        height: 50px;
+        width: 100px;
+    }
+    .final{
+        height: 80px;
+background-color: #0F1111;
+color: white;
+font-size: 0.8rem;
+    }
+    .privacy {
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .privacy p{
+        margin-right: 10px;
+    }
